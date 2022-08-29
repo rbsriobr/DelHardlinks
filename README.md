@@ -1,5 +1,5 @@
 # DelHardlinks
-With this command-line tool for Windows, you can delete hardlinks, junctions and symlinks from files and folders.
+With this command-line tool for Windows, you can delete hardlinks, junctions and symbolic links from files and folders.
 
 ________________________________________________________________________________
  DelHardlinks vs. 1.0.0.0 by (2019) R.Santos
