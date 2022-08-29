@@ -1,0 +1,307 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Warn_InstanceAlreadyRunning" xml:space="preserve">
+    <value>Program instance is already running! </value>
+  </data>
+  <data name="App_Help" xml:space="preserve">
+    <value> 
+ Usage: DelHardlinks [options] "full directory path"
+ Options:
+	&lt;Opt_DeleteHardlinks&gt;, &lt;Opt_Str_DeleteHardlinks&gt;
+	&lt;Opt_DeleteJunctions&gt;, &lt;Opt_Str_DeleteJunctions&gt;
+	&lt;Opt_DeleteSymbLnks&gt;, &lt;Opt_Str_DeleteSymbLnks&gt;
+	&lt;Opt_ScanSubFolders&gt;, &lt;Opt_Str_ScanSubFolders&gt;
+	&lt;Opt_ScanLnkSubFolders&gt;, &lt;Opt_Str_ScanLnkSubFolders&gt;
+	&lt;Opt_PermanentDel&gt;, &lt;Opt_Str_PermanentDel&gt;
+	&lt;Opt_ShowFullPath&gt;, &lt;Opt_Str_ShowFullPath&gt;
+	&lt;Opt_PressKeyQuit&gt;, &lt;Opt_Str_PressKeyQuit&gt;
+	&lt;Opt_NotPromptForYesNo&gt;, &lt;Opt_Str_NotPromptForYesNo&gt;
+	"&lt;Opt_Log&gt;LOG", error log file. Where LOG is the full path of the log file
+	&lt;Opt_MaxDiskUsage&gt;XX, maximum disk usage. Where XX is 20-90 in %
+	Press &lt;spacebar&gt; key to pause and &lt;esc&gt; to abort
+ 
+ Example: DelHardLinks &lt;Opt_DeleteHardlinks&gt; &lt;Opt_ScanSubFolders&gt; "f:\test\"
+ 
+ Notes.
+	When using the &lt;Opt_DeleteJunctions&gt; or &lt;Opt_DeleteSymbLnks&gt; options, the &lt;Opt_ScanLnkSubFolders&gt; option is ignored.
+	The &lt;Opt_DeleteHardlinks&gt; option deletes copies of files only. The last file found in the search tree will be kept.
+	The &lt;Opt_DeleteJunctions&gt; and &lt;Opt_DeleteSymbLnks&gt; options delete all links. Their targets will be kept
+
+	Deleted items format:
+ [H:hardlinks J:junctions S:symbolic links, F:scanned files/files in directory, E:error]
+</value>
+  </data>
+  <data name="Err_InvalidOption" xml:space="preserve">
+    <value>{0}Invalid "{1}" option !</value>
+  </data>
+  <data name="App_License" xml:space="preserve">
+    <value>License: BSD (3-clause)
+!!! Use this tool with caution.
+If you don't know what it is, don't use it.
+Improper use can result in data loss. !!!</value>
+  </data>
+  <data name="Err_PathNotFound" xml:space="preserve">
+    <value>Path not found! </value>
+  </data>
+  <data name="Err_BasepathIsNotRooted" xml:space="preserve">
+    <value>basepath is not rooted!</value>
+  </data>
+  <data name="Warn_TemporaryFileCannotBePermanentlyDeleted" xml:space="preserve">
+    <value>Temporary file cannot be permanently deleted !</value>
+  </data>
+  <data name="Str_RECYCLEBIN" xml:space="preserve">
+    <value>:\$RECYCLE.BIN\</value>
+  </data>
+  <data name="Err_RecyclebinPathCannotBeDetermined" xml:space="preserve">
+    <value>Critical error: Recyclebin path cannot be determined !</value>
+  </data>
+  <data name="Err_InvalidFilePath" xml:space="preserve">
+    <value>Invalid file path!</value>
+  </data>
+  <data name="Msg_Aborted" xml:space="preserve">
+    <value>Aborted ! </value>
+  </data>
+  <data name="Msg_PressSpacebarToContinue" xml:space="preserve">
+    <value>Paused...Press &lt;spacebar&gt; key to continue </value>
+  </data>
+  <data name="Warn_DriveOverload" xml:space="preserve">
+    <value>An unknown process is performing too many I/O operations on the storage device.  Do you want to &lt;c&gt;ontinue with limited resources or &lt;a&gt;bort operation ?</value>
+  </data>
+  <data name="Err_NotValidPath" xml:space="preserve">
+    <value>This is not a valid system path!</value>
+  </data>
+  <data name="Err_UseRootedPath" xml:space="preserve">
+    <value>Please use a rooted path ! (a non-relative path)</value>
+  </data>
+  <data name="Msg_RetrievingSubfolderData" xml:space="preserve">
+    <value>Retrieving subfolder data...</value>
+  </data>
+  <data name="Msg_RetrievingFileData" xml:space="preserve">
+    <value>Retrieving file data...</value>
+  </data>
+  <data name="App_Name" xml:space="preserve">
+    <value>DelHardlinks</value>
+  </data>
+  <data name="App_Author" xml:space="preserve">
+    <value>R.Santos</value>
+  </data>
+  <data name="Err_FileNotFound" xml:space="preserve">
+    <value>(File not found)</value>
+  </data>
+  <data name="Err_DirNotFound" xml:space="preserve">
+    <value>(Directory not found)</value>
+  </data>
+  <data name="Err_PathTooLong" xml:space="preserve">
+    <value>(Path too long)</value>
+  </data>
+  <data name="Err_SecurityError" xml:space="preserve">
+    <value>(Security error)</value>
+  </data>
+  <data name="Str_Message" xml:space="preserve">
+    <value>Message</value>
+  </data>
+  <data name="Str_LogFile" xml:space="preserve">
+    <value>Log file</value>
+  </data>
+  <data name="Str_Dir" xml:space="preserve">
+    <value>Directory</value>
+  </data>
+  <data name="InvalidArgOption" xml:space="preserve">
+    <value>Invalid \"{arg}\" option!</value>
+  </data>
+  <data name="Str_Info" xml:space="preserve">
+    <value>[H{0} J{1} S{2}, F{3}/{4}, E:{5}]</value>
+  </data>
+  <data name="App_Year" xml:space="preserve">
+    <value>2019</value>
+  </data>
+  <data name="Err_DriveNotFound" xml:space="preserve">
+    <value>(Drive not found)</value>
+  </data>
+  <data name="Err_UnauthorizedAccess" xml:space="preserve">
+    <value>(Unauthorized access)</value>
+  </data>
+  <data name="Opt_DeleteHardlinks" xml:space="preserve">
+    <value>-dH</value>
+  </data>
+  <data name="Opt_DeleteJunctions" xml:space="preserve">
+    <value>-dJ</value>
+  </data>
+  <data name="Opt_DeleteSymbLnks" xml:space="preserve">
+    <value>-dK</value>
+  </data>
+  <data name="Opt_Log" xml:space="preserve">
+    <value>-l:</value>
+  </data>
+  <data name="Opt_MaxDiskUsage" xml:space="preserve">
+    <value>-u:</value>
+  </data>
+  <data name="Opt_PermanentDel" xml:space="preserve">
+    <value>-p</value>
+  </data>
+  <data name="Opt_PressKeyQuit" xml:space="preserve">
+    <value>-m</value>
+  </data>
+  <data name="Opt_ScanLnkSubFolders" xml:space="preserve">
+    <value>-sL</value>
+  </data>
+  <data name="Opt_ScanSubFolders" xml:space="preserve">
+    <value>-s</value>
+  </data>
+  <data name="Opt_ShowFullPath" xml:space="preserve">
+    <value>-o</value>
+  </data>
+  <data name="Opt_Str_DeleteHardlinks" xml:space="preserve">
+    <value>-Delete hardlinks</value>
+  </data>
+  <data name="Opt_Str_DeleteJunctions" xml:space="preserve">
+    <value>-Delete all junctions</value>
+  </data>
+  <data name="Opt_Str_DeleteSymbLnks" xml:space="preserve">
+    <value>-Delete all symbolic links</value>
+  </data>
+  <data name="Opt_Str_Log" xml:space="preserve">
+    <value>-Log file:</value>
+  </data>
+  <data name="Opt_Str_MaxDiskUsage" xml:space="preserve">
+    <value>-Maximum disk usage:</value>
+  </data>
+  <data name="Opt_Str_PermanentDel" xml:space="preserve">
+    <value>-Permanent deletion</value>
+  </data>
+  <data name="Opt_Str_PressKeyQuit" xml:space="preserve">
+    <value>-User iteration &lt;Press a key to halt before quitting&gt;</value>
+  </data>
+  <data name="Opt_Str_ScanLnkSubFolders" xml:space="preserve">
+    <value>-Scan into linked subfolders</value>
+  </data>
+  <data name="Opt_Str_ScanSubFolders" xml:space="preserve">
+    <value>-Scan into subfolders</value>
+  </data>
+  <data name="Opt_Str_ShowFullPath" xml:space="preserve">
+    <value>-Show full path</value>
+  </data>
+  <data name="Opt_NotPromptForYesNo" xml:space="preserve">
+    <value>-y</value>
+  </data>
+  <data name="Opt_Str_NotPromptForYesNo" xml:space="preserve">
+    <value>-Assume "yes" to every deletion</value>
+  </data>
+</root>

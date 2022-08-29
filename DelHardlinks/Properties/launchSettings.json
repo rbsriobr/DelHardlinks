@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "DelHardlinks": {
+      "commandName": "Project",
+      "commandLineArgs": "-s -y -sL \"c:\\\\\""
+    }
+  }
+}
