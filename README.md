@@ -40,5 +40,5 @@ Improper use can result in data loss. !!!
         
  [H:hardlinks J:junctions S:symbolic links, F:scanned files/files in directory, E:error]
  
- ![alt text](https://github.com/[username]/[reponame]/blob/[branch]/image.jpg?raw=true)
+ ![images/demo.jpeg](https://github.com/rbsriobr/DelHardlinks/blob/ec117dd95901064c3a6fe2706cfc5c3044eaf12b/images/demo.jpeg?raw=true)
  
